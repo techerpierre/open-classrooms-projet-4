@@ -1,6 +1,22 @@
 $primary-color: #9356DC;
 $secondary-color: #FF79DA;
 $tertiary-color: #99E2D0;
+$background-color: #F6F6F6;
+
+$extra-dark: #101010;
+$dark: #353535;
+
+
+$shrikhand: Shrikhand, cursive;
+$roboto: Roboto, cursive;
+
+$gardient: linear-gradient($secondary-color, $primary-color);
 
 $screen: 100vh;
 $full: 100%;
+
+$big: 24px;
+$medium: 18px;
+$small: 16px;
+
+$full: 9999px;

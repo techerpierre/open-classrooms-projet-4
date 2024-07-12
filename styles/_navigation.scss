@@ -1,0 +1,22 @@
+.navbar {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 63px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.15);
+
+    i {
+        font-size: 30px;
+        position: absolute;
+        left: 17px;
+        top: 17px;
+    }
+}
+
+@media (min-width: 1320px) {
+    .navbar {
+        padding: 30px 0;
+    }
+}

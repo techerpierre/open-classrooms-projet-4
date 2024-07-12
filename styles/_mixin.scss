@@ -1,0 +1,7 @@
+@mixin font($font: cursive) {
+    font-family: $font;
+}
+
+@mixin color($color: #101010) {
+    color: $color;
+}
