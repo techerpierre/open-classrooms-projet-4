@@ -1,0 +1,12 @@
+@import 'theme/theme';
+@import 'reset/reset';
+@import 'layout/layout';
+@import 'components/navbar';
+@import 'components/button';
+@import 'components/hearth';
+@import 'components/footer';
+@import 'components/loader';
+
+:root {
+    scroll-behavior: smooth;
+}

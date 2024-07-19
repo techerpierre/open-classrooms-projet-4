@@ -1,0 +1,40 @@
+.button {
+    width: fit-content;
+    padding: 20px 26px;
+    background: $gardient;
+    border-radius: $rounded;
+    color: #fff;
+    font-weight: bold;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.25);
+    transition: box-shadow 0.2s ease-in-out;
+    position: relative;
+
+    &::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        opacity: 0;
+        background-color: #fff;
+        border-radius: $rounded;
+        transition: opacity 0.2s ease-in-out;
+    }
+
+    &:hover {
+        box-shadow: 0 4px 10px 3px rgba(0, 0, 0, 0.25);
+    }
+
+    &:hover::after {
+        opacity: 0.2;
+    }
+
+    &:active {
+        box-shadow: 0 4px 10px 3px rgba(0, 0, 0, 0.25);
+    }
+
+    &:active::after {
+        opacity: 0.2;
+    }
+}

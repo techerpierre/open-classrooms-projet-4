@@ -5,46 +5,184 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
-    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/pages/restaurants.css">
     <title>Ohmyfood</title>
 </head>
 <body>
     <nav class="navbar">
         <a href="../pages/index.html">
-            <i class="fa-solid fas fa-arrow-left"></i>
+            <img src="../assets/icons/arrow_back.svg" alt="flèche orienté vers la gauche">
         </a>
-        <h2 class="font-shrikhand logo">ohmyfood</h2>
+        <h2>ohmyfood</h2>
     </nav>
     <section class="image-section">
         <img src="../assets/images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg" alt="">
     </section>
     <main class="menu">
-        <div class="title">
-            <h1 class="font-shrikhand">À la française</h1>
-            <div class="heart">
-                <i class="fa-regular fa-heart fa-2xl"></i>
-                <i class="fa-solid fa-heart fa-2xl clicked"></i>
+        <div class="layout">
+            <div class="title">
+                <h1 class="font-shrikhand">À la française</h1>
+                <div class="heart">
+                    <img src="../assets/icons/like.svg" alt="coeur en contoure">
+                    <img src="../assets/icons/like-fill.svg" alt="coeur plein" class="clicked" class="clicked">
+                </div>
+            </div>
+            <section>
+                <h2>Entrées</h2>
+                <div class="cards">
+                    <div class="card">
+                        <div class="content">
+                            <h3 class="name">Tartare de poulpe acidulé</h3>
+                            <div>
+                                <p>Aux zestes d'orange</p>
+                                <p class="price">25 €</p>
+                            </div>
+                        </div>
+                        <div class="check">
+                            <img src="../assets/icons/check.svg" alt="icon check">
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="content">
+                            <h3 class="name">Velouté de légumes d'antan</h3>
+                            <div>
+                                <p>Carotte, panais, topinambour</p>
+                                <p class="price">35 €</p>
+                            </div>
+                        </div>
+                        <div class="check">
+                            <img src="../assets/icons/check.svg" alt="icon check">
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="content">
+                            <h3 class="name">Soupe à l'oignon</h3>
+                            <div>
+                                <p>Revisitée</p>
+                                <p class="price">20 €</p>
+                            </div>
+                        </div>
+                        <div class="check">
+                            <img src="../assets/icons/check.svg" alt="icon check">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <h2>plats</h2>
+                <div class="cards">
+                    <div class="card">
+                        <div class="content">
+                            <h3 class="name">Coquilles Saint-Jacques</h3>
+                            <div>
+                                <p>Accompagnées d'une purée de panais</p>
+                                <p class="price">40 €</p>
+                            </div>
+                        </div>
+                        <div class="check">
+                            <img src="../assets/icons/check.svg" alt="icon check">
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="content">
+                            <h3 class="name">Magret de canard</h3>
+                            <div>
+                                <p>Et parmentier de pommes de terre</p>
+                                <p class="price">35 €</p>
+                            </div>
+                        </div>
+                        <div class="check">
+                            <img src="../assets/icons/check.svg" alt="icon check">
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="content">
+                            <h3 class="name">Pigeonneau d’Ille-et-Vilaine</h3>
+                            <div>
+                                <p>Sur son lit de gnocchis aux légumes</p>
+                                <p class="price">44 €</p>
+                            </div>
+                        </div>
+                        <div class="check">
+                            <img src="../assets/icons/check.svg" alt="icon check">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <h2>Desserts</h2>
+                <div class="cards">
+                    <div class="card">
+                        <div class="content">
+                            <h3 class="name">Pétales de violettes glacés</h3>
+                            <div>
+                                <p>Et purée de noisettes</p>
+                                <p class="price">18 €</p>
+                            </div>
+                        </div>
+                        <div class="check">
+                            <img src="../assets/icons/check.svg" alt="icon check">
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="content">
+                            <h3 class="name">Fondant au chocolat</h3>
+                            <div>
+                                <p>Revisité</p>
+                                <p class="price">22 €</p>
+                            </div>
+                        </div>
+                        <div class="check">
+                            <img src="../assets/icons/check.svg" alt="icon check">
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="content">
+                            <h3 class="name">Millefeuille croustillant</h3>
+                            <div>
+                                <p>Myrtilles et pâte d’amande</p>
+                                <p class="price">23 €</p>
+                            </div>
+                        </div>
+                        <div class="check">
+                            <img src="../assets/icons/check.svg" alt="icon check">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div class="order">
+                <a href="#">
+                    <div class="button">Commander</div>
+                </a>
             </div>
         </div>
     </main>
     <footer class="footer">
-        <p class="font-shrikhand logo">ohmyfood</p>
-        <div class="labels">
-            <p>Contact</p>
-            <p>Mentions légales</p>
-            <div class="with-icon">
-                <span class="material-symbols-outlined">
-                    handshake
-                </span>
-                <p>Devenir partenaire</p>
-            </div>
-            <div class="with-icon">
-                <span class="material-symbols-outlined">
-                    restaurant
-                </span>
-                <p>Proposer un restaurant</p>
+        <div class="layout">
+            <p class="font-shrikhand logo">ohmyfood</p>
+            <div class="labels">
+                <p>Contact</p>
+                <p>Mentions légales</p>
+                <div class="with-icon">
+                    <span class="material-symbols-outlined">
+                        handshake
+                    </span>
+                    <p>Devenir partenaire</p>
+                </div>
+                <div class="with-icon">
+                    <span class="material-symbols-outlined">
+                        restaurant
+                    </span>
+                    <p>Proposer un restaurant</p>
+                </div>
             </div>
         </div>
     </footer>
+    <div class="loader">
+        <div class="item1"></div>
+        <div class="item2"></div>
+        <div class="item3"></div>
+    </div>
 </body>
 </html>

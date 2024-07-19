@@ -3,15 +3,20 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 63px;
+    padding: 24px 0 13px 0;
     background-color: #fff;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.15);
 
-    i {
+    h2 {
         font-size: 30px;
+        font-family: $shrikhand;
+        font-weight: $shrikhand-wheight;
+    }
+
+    img {
         position: absolute;
-        left: 17px;
-        top: 17px;
+        left: 23px;
+        top: (50% - 8);
     }
 }
 
