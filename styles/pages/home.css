@@ -89,6 +89,7 @@
 .restaurants {
   display: flex;
   justify-content: center;
+  background-color: #F6F6F6;
 }
 .restaurants .layout {
   padding: 48px 20px 68px 20px;
@@ -97,6 +98,7 @@
   margin-bottom: 28px;
 }
 .restaurants .layout .articles {
+  box-shadow: 0 0 0 0 #000;
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   gap: 18px;
@@ -117,6 +119,7 @@
   position: relative;
   overflow: hidden;
   background-color: #fff;
+  box-shadow: 0, 4px, 15px, 0 #000;
 }
 .restaurants .layout .articles article .image {
   width: 100%;
