@@ -168,9 +168,6 @@ a {
   animation: load-item 0.6s ease-in-out;
   animation-iteration-count: infinite;
 }
-.loader .item1 {
-  animation-delay: 0;
-}
 .loader .item2 {
   animation-delay: 0.2s;
 }

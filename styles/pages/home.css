@@ -9,8 +9,9 @@
   background-color: #EAEAEA;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.15);
 }
-.location p {
+.location h4 {
   font-size: 16px;
+  font-weight: 500;
   color: #353535;
 }
 
@@ -119,7 +120,7 @@
   position: relative;
   overflow: hidden;
   background-color: #fff;
-  box-shadow: 0, 4px, 15px, 0 #000;
+  box-shadow: 0 4px 15px 0 #000;
 }
 .restaurants .layout .articles article .image {
   width: 100%;
