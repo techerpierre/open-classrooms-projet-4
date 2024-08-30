@@ -10,6 +10,8 @@
     justify-content: center;
     align-items: center;
     gap: 10px;
+    animation: load 3s ease;
+    animation-fill-mode: forwards;
     div {
         position: relative;
         z-index: 60;
@@ -27,8 +29,6 @@
     .item3 {
         animation-delay: .4s;
     }
-    animation: load 3s ease;
-    animation-fill-mode: forwards;
 }
 
 @keyframes load {
