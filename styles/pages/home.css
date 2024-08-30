@@ -99,7 +99,7 @@
   margin-bottom: 28px;
 }
 .restaurants .layout .articles {
-  box-shadow: 0 0 0 0 #000;
+  box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.0196078431);
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   gap: 18px;
@@ -120,7 +120,7 @@
   position: relative;
   overflow: hidden;
   background-color: #fff;
-  box-shadow: 0 4px 15px 0 #000;
+  box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.2666666667);
 }
 .restaurants .layout .articles article .image {
   width: 100%;

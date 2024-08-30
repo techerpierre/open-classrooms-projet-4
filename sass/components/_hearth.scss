@@ -1,6 +1,8 @@
 .heart {
     position: relative;
     z-index: 5;
+    width: fit-content;
+
     .clicked {
         z-index: 6;
         position: absolute;
@@ -9,9 +11,8 @@
         transform: scale(0);
         transform-origin: center center;
         transition: 0.5s ease-in-out;
-        cursor: wait;
     }
-    width: fit-content;
+    
     &:hover {
         .clicked {
             transform: scale(1);

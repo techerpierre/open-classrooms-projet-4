@@ -91,7 +91,6 @@ a {
   transform: scale(0);
   transform-origin: center center;
   transition: 0.5s ease-in-out;
-  cursor: wait;
 }
 .heart:hover .clicked {
   transform: scale(1);
